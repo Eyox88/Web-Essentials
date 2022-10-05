@@ -1,0 +1,15 @@
+div p a{
+    background-color: crimson;
+}
+
+p {
+    font-family: Times, serif;
+font-size: 12pt; 
+line-height: 20pt; 
+font-weight: bold; 
+font-style: italic;
+}
+
+
+p {
+    font: bold italic 12pt/20pt Times, serif;
