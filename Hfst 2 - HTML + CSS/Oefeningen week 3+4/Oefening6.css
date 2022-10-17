@@ -1,0 +1,118 @@
+*{
+    font-family: monospace;
+    color: #6a9c98;
+    font-size: x-large;
+}
+
+.body{
+    background-color:#2f4a48;
+}
+
+div.Titel{
+    font-family: fantasy;
+    color: #6a9c98;
+    padding: 50px;
+    border: 6px solid;
+    position: center;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 3%;
+    background-image: url("headphones.jpg");
+
+}
+div.muzieknoot{
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: -850px;
+    left: 835px;
+
+}
+
+
+
+.festivals{
+    background-color:  black;
+    border: solid 3px #6a9c98;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+
+
+}
+
+
+
+.art1{
+    background-color: #42634d;
+    font-family: fantasy;
+    color: #6a9c98;
+    padding: 10px;
+    border: 3px solid;
+    font-size: 20px;
+    margin: auto;
+    background-image: url("headphones.jpg");
+
+}
+
+.art2{
+    background-color: #606342;
+    font-family: fantasy;
+    color: #6a9c98;
+    padding: 10px;
+    border: 3px solid;
+    font-size: 20px;
+    background-image: url("headphones.jpg");
+}
+
+.art3{
+    background-color: #634942;
+    font-family: fantasy;
+    color: #6a9c98;
+    padding: 10px;
+    border: 3px solid;
+    font-size: 20px;
+    margin: auto;
+    background-image: url("headphones.jpg");
+}
+
+.art4{
+    background-color: #513752;
+    font-family: fantasy;
+    color: #6a9c98;
+    padding: 10px;
+    border: 3px solid;
+    font-size: 20px;
+    margin: auto;
+    background-image: url("headphones.jpg");
+}
+
+.art5{
+    background-color: #272959;
+    font-family: fantasy;
+    color: #6a9c98;
+    padding: 10px;
+    border: 3px solid;
+    font-size: 20px;
+    margin: auto;
+    background-image: url("headphones.jpg");
+}
+
+a:hover{
+    color: white;
+    font-size: larger;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+ul{
+    list-style-image: url("../../Hfst 1 - inleiding/oefeningen Week 1+2/images/Musicnote2.png");
+    color: #ffebcd;
+}
+
+.footer{
+    font-size: 35px;
+    color: #871c47;
+}
