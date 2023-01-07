@@ -1,0 +1,27 @@
+*{
+    font-family: ;
+    box-sizing: border-box;
+    color: blanchedalmond;
+
+}
+
+body{
+
+
+
+
+}
+
+.frontpage{
+    position: center;
+    text-align: center;
+}
+
+.image-frontpage{
+    background-image: url("foto frontpage.jpeg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

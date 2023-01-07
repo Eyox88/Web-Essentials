@@ -17,7 +17,7 @@ div.Titel{
     text-align: center;
     font-size: 35px;
     border-radius: 3%;
-    background-image: url("headphones.jpg");
+    background-image: url("../assets/headphones.jpg");
 
 }
 div.muzieknoot{
@@ -51,8 +51,8 @@ div.muzieknoot{
     border: 3px solid;
     font-size: 20px;
     margin: auto;
-    background-image: url("headphones.jpg");
-
+    background-image: url("../assets/headphones.jpg");
+    background-size: cover;
 }
 
 .art2{
@@ -62,7 +62,7 @@ div.muzieknoot{
     padding: 10px;
     border: 3px solid;
     font-size: 20px;
-    background-image: url("headphones.jpg");
+    background-image: url("../assets/headphones.jpg");
 }
 
 .art3{
@@ -73,7 +73,7 @@ div.muzieknoot{
     border: 3px solid;
     font-size: 20px;
     margin: auto;
-    background-image: url("headphones.jpg");
+    background-image: url("../assets/headphones.jpg");
 }
 
 .art4{
@@ -84,7 +84,7 @@ div.muzieknoot{
     border: 3px solid;
     font-size: 20px;
     margin: auto;
-    background-image: url("headphones.jpg");
+    background-image: url("../assets/headphones.jpg");
 }
 
 .art5{
@@ -95,11 +95,11 @@ div.muzieknoot{
     border: 3px solid;
     font-size: 20px;
     margin: auto;
-    background-image: url("headphones.jpg");
+    background-image: url("../assets/headphones.jpg");
 }
 
 a:hover{
-    color: white;
+    color: orange;
     font-size: larger;
 }
 
@@ -115,4 +115,5 @@ ul{
 .footer{
     font-size: 35px;
     color: #871c47;
+
 }

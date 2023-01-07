@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.frontpage {
+    background-image: url("backgroundhexagon.jpg");
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    font-weight: bolder;
+    align-items: center;
+    color: silver;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FFA600, 0 0 6px black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 15px 16px;
+    border-radius: 5px;
+}
+
+li a:hover {
+    color: black;
+}
+
+ul a:hover {
+    background-color: white;
+    opacity: 50%;
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+.mainside{
+    width: 100%;
+    display: flex;
+}
+
+.leftsideCV{
+    display: inline-flex;
+    flex-direction: column;
+    border-right: 4px solid #FFA600;
+    width: 20%;
+    height: 100%;
+    padding: 0;
+}
+
+.rightsideCV{
+    display: inline-flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+
+}
+
+.eigenfotobox{
+    width: 100%;
+    padding-left: 60px;
+}
+
+.eigenfoto > a > img {
+    height: 75%;
+    width: 75%;
+    border-radius: 50%;
+    border: 3px solid #FFA600;
+
+}
+
+.eigenfoto > a > img:hover {
+    box-shadow: 0 5px 20px 0 white;
+}
+
+.eigenfoto > a > img:active{
+    border: 3px solid white;
+}
+
+.logolinkdin > a > img{
+    display: flex;
+    height: 40px;
+    width: 40px;
+
+}
+
+.leftsideCV > h1{
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.boxleft{
+    display: inline-flex;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top: 3px solid #FFA600;
+    border-left: 3px solid #FFA600;
+    height: 35px;
+    width: 100%;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+.contactinfo{
+    display: inline-flex;
+    justify-content: start;
+    margin: 25px;
+    padding-left: 30px;
+    font-size: 20px;
+    width: 75%;
+}
+
+.contactinfo > i{
+    padding-right: 10px;
+}
+
+.hobbylijst{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    text-align: start;
+    list-style-type: square;
+
+}
+
+.hobbypunt{
+    margin:10px;
+    font-size: 20px;
+
+}
+
+.loadingname{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 25px 25px 15px 0;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+.talenkennisloading{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 25px 25px 16px 0;
+    font-size: 20px;
+    width: 100%;
+}
+
+progress {
+    width: 170px;
+    height: 10px;
+    margin-left: 50px;
+    background-color: silver;
+}
+
+progress::-webkit-progress-value {
+    background: #FFA600;
+}
+
+.cont{
+    padding-bottom: 30px;
+}
+
+.hob {
+    padding-bottom: 30px;
+}
+
+.soft{
+    padding-bottom: 30px;
+}
+
+.cont > a:hover{
+    color:#FFA600;
+}
+
+.werktitel{
+    text-align: end;
+    background-color: #FFA600 ;
+    padding-right: 50px;
+    opacity: 80%;
+}
+
+.werk{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.werkervaringlogoenlijst{
+    display: flex;
+}
+
+.logowerkervaring{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.logowerkervaring > img{
+    height: 75%;
+    width: 100%;
+
+}
+
+.werkervaringen{
+    font-size: 23px;
+    color: silver;
+}
+
+.werkervaringen > b:hover{
+    color: #FFA600 ;
+}
+
+.studielijst{
+    display: flex;
+}
+
+.studies{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.studietitel{
+    text-align: center;
+    background-color: #FFA600 ;
+    margin-top:100px;
+    opacity: 80%;
+}
+
+.studiepunten{
+    font-size: 23px;
+    width: 100%;
+    color: silver;
+   justify-content: end;
+    padding-left: 400px;
+
+}
+
+.studiepunten > b:hover{
+    color: #FFA600 ;
+
+}
+
+.logostudies{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.quote{
+    text-align: center;
+    color: silver;
+    background-color: black ;
+    margin-top:110px;
+    border-top: 2px solid #FFA600;
+    border-right: 2px solid #FFA600;
+    border-bottom: 2px solid #FFA600;
+    width: 105%;
+}
+
+.quote:hover{
+    color: white ;
+}
+
+.persoonlijkheidtitel{
+    text-align: start;
+    background-color: #FFA600 ;
+    margin-top:100px;
+    padding-left: 50px;
+}
+
+.tabel{
+    display: flex;
+    padding: 70px;
+}
+
+.persoonlijkheid{
+    border: 2px solid #FFA600;
+    height: 330px;
+    width: 750px;
+    display: inline-flex;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+tr,td{
+    border: 2px solid #FFA600;
+    height:  108px;
+    width: 375px;
+}
+
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd){
+    background-color: black;
+    opacity: 70%;
+}
+
+
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd){
+    background-color: #FFA600;
+    opacity: 70%;
+}
+
+.persoonlijk{
+    display: flex;
+}
+
+.logopersoonlijkheid > img{
+    height: 75%;
+    width: 100%;
+}
+
+footer {
+    background-color: #FFA600;
+    opacity: 40%;
+    height: 75px;
+    width: 100%;
+}
+
+.footertekst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footertekst > h1 {
+    color: black;
+}
+
+.naarboven {
+    color: black;
+}
+
+.naarboven:hover {
+    color: white;
+}
+
+@media screen and (max-width:480px){
+    .tabel{
+        display: none;
+    }
+}

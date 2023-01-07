@@ -1,0 +1,50 @@
+body{
+    background-color: #151c28;
+}
+
+h1{
+    color: #ffe14f;
+    postion: center;
+    text-align: center;
+}
+
+div.rodeknop{
+    border: 3px solid #ffe14f;
+    height: 200px;
+    width: 700px;
+    border-radius: 10px;
+    margin:auto;
+    padding: 25px 25px 2px 20px;
+}
+
+div.fart{
+    border: 3px solid #ffe14f;
+    height: 200px;
+    width: 700px;
+    border-radius: 10px;
+    margin:auto;
+    padding: 25px 25px 2px 20px;
+}
+
+div.deurbel{
+    border: 3px solid #ffe14f;
+    height: 200px;
+    width: 700px;
+    border-radius: 10px;
+    margin:auto;
+    padding: 25px 25px 2px 20px;
+}
+
+div.drums{
+    border: 3px solid #ffe14f;
+    height: 200px;
+    width: 700px;
+    border-radius: 10px;
+    margin:auto;
+    padding: 25px 25px 2px 20px;
+}
+
+div:hover{
+    background-color: #8daec6;
+}
+

@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.frontpage {
+    background-image: url("backgroundhexagon.jpg");
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    font-weight: bolder;
+    align-items: center;
+    color: silver;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FFA600, 0 0 6px black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    padding: 15px 16px;
+    border-radius: 5px;
+}
+
+li a:hover {
+    color: black;
+}
+
+ul a:hover {
+    background-color: white;
+    opacity: 50%;
+}
+
+.eigenfoto > a > img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 40px;
+    border: 3px solid #FFA600;
+}
+
+.eigenfoto > a > img:hover {
+    box-shadow: 0px 5px 20px 0px white;
+}
+
+.welkom {
+    display: flex;
+    justify-content: center;
+    padding: 25px 250px 15px 0px;
+    height: 50vh;
+}
+
+.welkomtekst {
+    width: 100vh;
+    border-radius: 5px;
+}
+
+.welkomtekst > p:hover {
+    text-shadow: 0 0 10px silver
+}
+
+.welkomtekst > p {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    padding: 35px;
+}
+
+.welkomtekst > h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    color: #FFA600;
+    transition: transform 1000ms ease-in;
+}
+
+.welkomtekst > h1:hover {
+    font-size: 45px;
+    transform: rotate3d(1, 1, 1, 360deg);
+}
+
+footer {
+    background-color: #FFA600;
+    opacity: 40%;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footertekst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footertekst > h1 {
+    color: black;
+}
+
+.naarboven {
+    color: black;
+}
+
+.naarboven:hover {
+    color: white;
+}
+
+
+
+
