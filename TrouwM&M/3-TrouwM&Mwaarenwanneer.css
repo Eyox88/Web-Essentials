@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../TrouwM&M/foto's/Achtergrond.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.nav1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.nav2 {
+    display: inline-block;
+
+}
+
+.nav2 a {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 15px 16px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Meow Script";
+    font-size: xxx-large;
+    font-weight: bold;
+    opacity: 60%;
+}
+
+
+.nav1 a:hover {
+
+    opacity: 50%;
+    color: black;
+}
+
+.route {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.navigatie {
+    display: flex;
+    opacity: 80%;
+}
+
+.info {
+    color: white;
+    font-family: "Meow Script";
+    font-size: xx-large;
+    padding-right: 75px;
+
+}
+
+.info > h1{
+    margin: 15px;
+}
+
+
+

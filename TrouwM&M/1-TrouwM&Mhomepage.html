@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="1-TrouwM&Mhomepage.css">
+    <script src="test.js"></script>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="1-TrouwM&Mhomepage.html">Home</a></li>
+        <li><a href="2-TrouwM&Monsverhaal.html">Ons verhaal</a></li>
+        <li><a href="3-TrouwM&Mwaarenwanneer.html">Waar en wanneer</a></li>
+        <li><a href="4-TrouwM&Mfotos.html">Foto's</a></li>
+        <li><a href="5-TrouwM&Mmeevieren.html">Meevieren</a></li>
+        <li><a href="6-TrouwM&Mcadeautip.html">Cadeautip</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <div class="imgBx"></div>
+    <div class="countdownBx">
+        <h2>Wij trouwen!</h2>
+        <div class="countdown">
+            <div id="day">NA</div>
+            <div id="hour">NA</div>
+            <div id="minute">NA</div>
+            <div id="second">NA</div>
+        </div>
+    </div>
+</div>
+<script>
+    // Set the date we're counting down to
+    const countDate = new Date("Jun 17, 2023 17:00:00").getTime();
+
+    function Trouw(){
+        const now = new Date().getTime();
+        gap = countDate - now;
+
+        const second = 1000;
+        const minute = second * 60;
+        const hour = minute * 60;
+        const day = hour * 24;
+
+        const d = Math.floor(gap/day);
+        const h = Math.floor((gap % (day))/(hour));
+        const m = Math.floor((gap % (hour))/(minute));
+        const s = Math.floor((gap % (minute))/(second));
+
+        document.getElementById('day').innerText = d;
+        document.getElementById('hour').innerText = h;
+        document.getElementById('minute').innerText = m;
+        document.getElementById('second').innerText = s;
+    }
+
+    setInterval(function (){
+        Trouw()
+    })
+
+</script>
+
+</body>
+</html>

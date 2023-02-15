@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("../TrouwM&M/foto's/Achtergrond.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+
+}
+
+li a {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 15px 16px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Meow Script";
+    font-size: xxx-large;
+    font-weight: bold;
+    text-decoration: none;
+    opacity: 70%;
+}
+
+
+ul a:hover {
+    color: #BCA8AC;
+    text-shadow: 1px 1px 1px white;
+}
+
+.formandslogan{
+    display: flex;
+    width: 100%;
+}
+
+.slogan{
+    display: flex;
+    width: 50%;
+    font-family: "Meow Script";
+    font-size: xxx-large;
+    font-weight: bold;
+    margin: 150px;
+    color: #e3ba97;
+    text-shadow: 3px 1px 1px white;
+}
+
+.formulier{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    width: 50%;
+}
+
+#opmerkingen {
+    height: 100px;
+    width: 300px;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#message{
+    font-weight: bold;
+    font-size: xx-large;
+    width: 50%;
+
+}

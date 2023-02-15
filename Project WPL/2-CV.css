@@ -5,7 +5,7 @@
 }
 
 .frontpage {
-    background-image: url("backgroundhexagon.jpg");
+    background-image: url("../Project WPL/AssetsWPL/backgroundhexagon.jpg");
     background-size: 100%;
     padding: 0;
     margin: 0;
@@ -49,41 +49,48 @@ ul a:hover {
     opacity: 50%;
 }
 
-main{
+main {
     width: 100%;
-    display: flex;
 }
 
-.mainside{
+.mainside {
     width: 100%;
-    display: flex;
 }
 
-.leftsideCV{
+.leftsideCV {
     display: inline-flex;
     flex-direction: column;
     border-right: 4px solid #FFA600;
+    border-bottom: 4px solid #FFA600;
+    border-top:  4px solid #FFA600;;
     width: 20%;
     height: 100%;
     padding: 0;
+    background-color: black;
+    opacity: 70%;
 }
 
-.rightsideCV{
+.leftsideCV:hover{
+    opacity: 100%;
+}
+
+.rightsideCV {
     display: inline-flex;
     flex-direction: column;
     width: 75%;
-    height: 100%;
+    height: 150%;
 
 }
 
-.eigenfotobox{
+.eigenfotobox {
     width: 100%;
     padding-left: 60px;
+    padding-top: 30px;
 }
 
 .eigenfoto > a > img {
-    height: 75%;
-    width: 75%;
+    height: 70%;
+    width: 70%;
     border-radius: 50%;
     border: 3px solid #FFA600;
 
@@ -93,23 +100,30 @@ main{
     box-shadow: 0 5px 20px 0 white;
 }
 
-.eigenfoto > a > img:active{
+.eigenfoto > a > img:active {
     border: 3px solid white;
 }
 
-.logolinkdin > a > img{
+.logolinkdin {
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+}
+
+.logolinkdin > a > img {
     display: flex;
     height: 40px;
     width: 40px;
 
 }
 
-.leftsideCV > h1{
-    display: inline-block;
-    padding-left: 100px;
+.leftsideCV > h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 350%;
 }
 
-.boxleft{
+.boxleft {
     display: inline-flex;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
@@ -124,35 +138,44 @@ main{
 }
 
 
-.contactinfo{
+.contactinfo {
     display: inline-flex;
     justify-content: start;
     margin: 25px;
-    padding-left: 30px;
+    padding-left: 50px;
     font-size: 20px;
     width: 75%;
 }
 
-.contactinfo > i{
+.contactinfo > i {
     padding-right: 10px;
 }
 
-.hobbylijst{
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-    text-align: start;
-    list-style-type: square;
-
+.hob {
+    padding-top: 50px;
 }
 
-.hobbypunt{
-    margin:10px;
+.hobbylijst {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding-left: 50px;
+    text-align: start;
+    width: 80%;
+}
+
+.hobbypunt {
+    margin: 10px;
     font-size: 20px;
 
 }
 
-.loadingname{
+.hob li{
+    display: list-item;
+    list-style-type: square;
+}
+
+.loadingname {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -162,8 +185,7 @@ main{
 }
 
 
-
-.talenkennisloading{
+.talenkennisloading {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -173,136 +195,183 @@ main{
 }
 
 progress {
-    width: 170px;
-    height: 10px;
+    width: 171px;
+    height: 11px;
     margin-left: 50px;
     background-color: silver;
+    border-radius: 10px;
+    opacity: 80%;
 }
 
 progress::-webkit-progress-value {
     background: #FFA600;
-}
+    border-radius: 10px;
+    width: 170px;
+    height: 10px;
+    transition: transform 500ms ease-in-out;
 
-.cont{
-    padding-bottom: 30px;
 }
-
-.hob {
-    padding-bottom: 30px;
-}
-
-.soft{
-    padding-bottom: 30px;
-}
-
-.cont > a:hover{
-    color:#FFA600;
-}
-
-.werktitel{
-    text-align: end;
-    background-color: #FFA600 ;
-    padding-right: 50px;
+progress::-webkit-progress-bar{
+    width: 170px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
     opacity: 80%;
+
 }
 
-.werk{
-    padding-left: 100px;
+progress::-webkit-progress-value:hover {
+    background: #FFA600;
+    border-radius: 10px;
+    width: 175px;
+    height: 12px;
+    transform: translateX(3px);
+
+}
+
+
+.cont {
+    padding-bottom: 60px;
+}
+
+.soft {
+    padding-top: 60px;
+}
+
+.talen{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.cont > a:hover {
+    color: #FFA600;
+}
+
+.werktitel {
+    text-align: center;
+    width: 100%;
+    background-color: #FFA600;
+    font-size: 45px;
+}
+
+.werk {
+    padding-left: 150px;
     display: flex;
     flex-direction: column;
 }
 
-.werkervaringlogoenlijst{
+.werkervaringlogoenlijst {
     display: flex;
+    background-color: black;
+    opacity: 60%;
+    border-radius: 5px;
+    border: 3px solid #FFA600;
+    transition: transform 500ms ease-in-out;
+    margin: 20px;
 }
 
-.logowerkervaring{
+.werkervaringlogoenlijst:hover{
+    transform: translateY(-75px);
+    opacity: 100%;
+}
+
+.logowerkervaring {
     display: flex;
     align-items: center;
     padding-left: 150px;
 }
 
-.logowerkervaring > img{
-    height: 75%;
-    width: 100%;
-
+.logowerkervaring > img {
+    width: 65%;
 }
 
-.werkervaringen{
+.werkervaringen {
     font-size: 23px;
     color: silver;
 }
 
-.werkervaringen > b:hover{
-    color: #FFA600 ;
+.werkervaringen > b:hover {
+    color: #FFA600;
 }
 
-.studielijst{
+.studielijst {
     display: flex;
+    background-color: black;
+    opacity: 60%;
+    border-radius: 5px;
+    border: 3px solid #FFA600;
+    transition: transform 500ms ease-in-out;
+    margin: 20px;
+}
+
+.studielijst:hover{
+    transform: translateY(-75px);
+    opacity: 100%;
+}
+
+.studietitel {
+    text-align: center;
+    width: 100%;
+    background-color: #FFA600;
+    font-size: 45px;
 }
 
 .studies{
-    padding-left: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
+    padding-right: 150px;
 }
 
-.studietitel{
-    text-align: center;
-    background-color: #FFA600 ;
-    margin-top:100px;
-    opacity: 80%;
-}
-
-.studiepunten{
+.studiepunten {
     font-size: 23px;
     width: 100%;
     color: silver;
-   justify-content: end;
-    padding-left: 400px;
-
 }
 
-.studiepunten > b:hover{
-    color: #FFA600 ;
-
+.studiepunten > b:hover {
+    color: #FFA600;
 }
 
-.logostudies{
+.logostudies {
     display: flex;
-    align-items: center;
     padding-left: 150px;
+    align-items: center;
 }
 
-.quote{
+.logostudies > img {
+    width: 45%;
+
+}
+
+.quote {
     text-align: center;
     color: silver;
-    background-color: black ;
-    margin-top:110px;
-    border-top: 2px solid #FFA600;
-    border-right: 2px solid #FFA600;
-    border-bottom: 2px solid #FFA600;
-    width: 105%;
+    background-color: black;
+    border: 2px solid #FFA600;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.quote:hover{
-    color: white ;
+.quote:hover {
+    color: white;
 }
 
-.persoonlijkheidtitel{
+.persoonlijkheidtitel {
     text-align: start;
-    background-color: #FFA600 ;
-    margin-top:100px;
+    background-color: #FFA600;
+    margin-top: 100px;
     padding-left: 50px;
 }
 
-.tabel{
+.tabel {
     display: flex;
     padding: 70px;
 }
 
-.persoonlijkheid{
+.persoonlijkheid {
     border: 2px solid #FFA600;
     height: 330px;
     width: 750px;
@@ -313,32 +382,54 @@ progress::-webkit-progress-value {
     color: black;
     font-size: 25px;
     border-radius: 10px;
+    opacity: 70%;
 }
 
-tr,td{
+.persoonlijkheid:hover{
+    opacity: 100%;
+}
+
+tr, td {
     border: 2px solid #FFA600;
-    height:  108px;
+    height: 108px;
     width: 375px;
 }
 
-tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd){
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
     background-color: black;
-    opacity: 70%;
 }
 
 
-tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd){
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
     background-color: #FFA600;
-    opacity: 70%;
 }
 
-.persoonlijk{
+
+.persoonlijk {
     display: flex;
+    background-color: black;
+    opacity: 60%;
+    border-radius: 5px;
+    border: 3px solid #FFA600;
+
+    margin: 20px;
 }
 
-.logopersoonlijkheid > img{
-    height: 75%;
-    width: 100%;
+.logopersoonlijkheid{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.logopersoonlijkheid > img {
+    width: 65%;
+    transition: transform 500ms ease-in-out;
+}
+
+.logopersoonlijkheid > img:hover{
+    opacity: 100%;
+    transform: translate3d(-50px, -20px, -80px);
+
 }
 
 footer {
@@ -368,8 +459,28 @@ footer {
     color: white;
 }
 
-@media screen and (max-width:480px){
-    .tabel{
+@media screen and (max-width: 480px) {
+    .tabel {
         display: none;
     }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainside{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frontpage{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftsideCV{
+        display: none;
+    }
+
 }

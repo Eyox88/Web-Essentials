@@ -10,7 +10,7 @@ body{
 }
 
 .image-frontpage{
-    background-image: url("backgroundhexagon.jpg");
+    background-image: url("../Project WPL/AssetsWPL/backgroundhexagon.jpg");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;

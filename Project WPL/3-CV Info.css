@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.frontpage {
+    background-image: url("../Project WPL/AssetsWPL/backgroundhexagon.jpg");
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    font-weight: bolder;
+    align-items: center;
+    color: silver;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FFA600, 0 0 6px black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 15px 16px;
+    border-radius: 5px;
+}
+
+li a:hover {
+    color: black;
+}
+
+ul a:hover {
+    background-color: white;
+    opacity: 50%;
+}
+
+.mainmezelf{
+    display: flex;
+}
+
+.mainmezelf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.insidebox{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    opacity: 60%;
+    border-radius: 5px;
+    border: 3px solid #FFA600;
+    flex-direction: column;
+    transition: transform 500ms ease-in-out;
+}
+
+.insidebox > h1{
+    height: 15px;
+}
+
+.insidebox > p{
+   font-size: 25px;
+    width: 60%;
+    padding-bottom: 25px;
+
+}
+
+.insidebox:hover{
+    transform: translateY(-75px);
+    opacity: 100%;
+}
+
+
+footer {
+    background-color: #FFA600;
+    opacity: 40%;
+    height: 75px;
+    width: 100%;
+}
+
+.footertekst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footertekst > h1 {
+    color: black;
+}
+
+.naarboven {
+    color: black;
+}
+
+.naarboven:hover {
+    color: white;
+}

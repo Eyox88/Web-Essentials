@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.frontpage {
+    background-image: url("../Project WPL/AssetsWPL/backgroundhexagon.jpg");
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    font-weight: bolder;
+    align-items: center;
+    color: silver;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FFA600, 0 0 6px black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 15px 16px;
+    border-radius: 5px;
+}
+
+li a:hover {
+    color: black;
+}
+
+ul a:hover {
+    background-color: white;
+    opacity: 50%;
+}
+
+.tabel {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.logboek {
+    border: 2px solid #FFA600;
+    height: 80%;
+    width: 65%;
+    display: inline-flex;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.logboek:hover {
+    opacity: 100%;
+}
+
+tr, td {
+    border: 2px solid #FFA600;
+    height: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+tr:nth-child(even) {
+    background-color: black;
+    opacity: 70%;
+
+}
+
+tr:nth-child(odd) {
+    background-color: black;
+    opacity: 70%;
+}
+
+tr:nth-child(even):hover {
+    opacity: 100%;
+    font-size: 26px;
+}
+
+tr:nth-child(odd):hover {
+    opacity: 100%;
+    font-size: 26px;
+}
+
+
+footer {
+    background-color: #FFA600;
+    opacity: 40%;
+    height: 75px;
+    width: 100%;
+}
+
+.footertekst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footertekst > h1 {
+    color: black;
+}
+
+.naarboven {
+    color: black;
+}
+
+.naarboven:hover {
+    color: white;
+}
